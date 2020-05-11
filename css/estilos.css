@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1528460033278-a6ba57020470?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    font-family: Arial; 
+    background-size: auto 100vh;
+    height: 100vh;
+  }
+  .menu {
+      background-color: SlateGray;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .site-title{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+  .site-subtitle {
+    color: black;
+    text-align:center;
+    font-style: italic;
+  }
+  
+  
